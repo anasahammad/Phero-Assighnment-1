@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Merriweather:wght@400;900&display=swap');
+:root{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+}
+section {
+    margin-bottom: 90px;
+}
+/* Banner Section Styles */
+.banner {
+    background-image: url("images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 40px 20px 80px 30px;
+    border-radius: 16px;
+    position: relative;
+   
+}
+.box{
+    height: 600px;
+    margin: 40px 20px 80px 30px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.banner-text{
+    width: 632px;
+    position: absolute;
+    top: 33%;
+    right: 25%;
+   
+
+}
+.banner-text h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+.banner-text p{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+   
+}
+/* 65% Off Section Styles */
+.off{
+    margin: 0 399px 0 345px;
+    height: 700px;
+}
+.off-text h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+   
+}
+ .red-text{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.black-text{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    
+}
+.off img {
+    height: 400px;
+}
+/* 2nd Banner Section Styles */
+.banner2{
+   background-image: url("./images/Vectorrr.png");
+   background-repeat: no-repeat;
+   height: 600px;
+   margin: 40px 20px 80px 30px;
+   border-radius: 16px;
+   position: relative;
+
+   
+}
+.banner2-text{
+    position: absolute;
+    width: 697px;
+    margin: 126px 552px 298px 126px;
+    top: 0;
+
+}
+.banner2-text h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+ 
+}
+.banner2-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+.simple-btn {
+    margin: 48px 0 0 32px;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+    background: none;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box2{
+    border-radius: 16px;
+    height: 600px;
+    margin: 40px 20px 80px 0;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+/* Event Place and Time Section Styles  */
+.event{
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 40px 20px 80px 40px;
+}
+.place {
+    padding: 100px 386px 214px 385px;
+    text-align: center;
+}
+.place p{
+  
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+.red{
+    color: #F00;
+}
+/* Best Offer Section Styles */
+.offer{
+    height: 482px;
+    margin: 40px 20px 80px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.offer-left{
+    width: 390px;
+}
+.offer-left .red-text{
+    text-align: left;
+}
+.offer-left .black-text{
+    text-align: left;
+}
+.para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+   
+    
+}
+
+.offer-middle{
+    width: 340px;
+    height: 340px;
+   
+}
+.image{
+    position: relative;
+}
+.image::after {
+    content: '';
+    width: 330px;
+    height: 330px;
+    border: 15px solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: -9%;
+    top: -10%;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    
+}
+.offer-right{
+    width: 276px;
+}
+.offer-right h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.offer-right img{
+    margin-top: 35px;
+}
+.red-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    margin: 40px 0 0 0;
+    padding: 20px 32px;
+    border: none;
+}
+/* Holiday Sale Section Styles  */
+.holiday-sale{
+    margin: 40px 20px 80px 40px;
+    
+}
+
+.holiday-text{
+    text-align: center;
+    margin: 0 250px 50px 250px ;
+}
+.holiday-text .func{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+   
+}
+.holiday-text h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+   
+}
+.red-holiday{
+    color: #F00;
+   
+}
+
+.group-image{
+    float: right;
+    position: relative;
+    
+    
+}
+
+.circle{
+   position: absolute;
+   top: 22%;
+   right: 63%;
+}
+.red-img{
+    height: 224px;
+   
+}
+
+
+
