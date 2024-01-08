@@ -246,6 +246,7 @@ section {
     margin: 40px 0 0 0;
     padding: 20px 32px;
     border: none;
+    cursor: pointer;
 }
 /* Holiday Sale Section Styles  */
 
@@ -399,6 +400,7 @@ footer p{
  hr{
     background: rgba(255, 255, 255, 0.15);
     max-width: 80%;
+    height: 1px;
     margin: auto;   
 }
 .address-right img{
@@ -411,6 +413,7 @@ footer p{
     align-items: center;
     gap: 24px;
     margin: 48px 0;
+    cursor: pointer;
 }
 .all-rights{
     display: flex;
