@@ -10,11 +10,14 @@
 }
 main{
     background: #FFF;
-    width: 100%;
-    height: 100%;
 }
 section {
     margin-bottom: 90px;
+    
+    max-width: 100vw;
+    height: 90%;
+    margin: 0 auto;
+    
 }
 /* Banner Section Styles */
 .banner {
@@ -263,14 +266,11 @@ section {
 }
 .red-holiday{
     color: #F00;
-   
 }
 
 .group-image{
     float: right;
-    position: relative;
-    
-    
+    position: relative;  
 }
 
 .circle{
@@ -282,6 +282,126 @@ section {
     height: 224px;
    
 }
+/* Our Portfolio Section Styles */
+.our-portfolio{
+    width: 100%;
+    margin: 40px 20px 80px 40px;
+}
+.portfolio-text p{
+    width: 890px;
+    text-align: left;
+    
+}
+.our-portfolio .posters{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 100%;
+  margin-top: 40px;
+ 
+}
+.posters img{
+    width: 400px;
+    height: 420px;
+      
+}
 
+/* .posters img:hover{
+    opacity: 0.9%;
+} */
+
+
+/* Newsletter Section Style */
+.newsletter{
+    margin: 40px 20px 80px 40px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+.newsletter .letter-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0;
+}
+.letter-item .letter-text{
+    text-align: center;
+    padding: 0 212px;
+}
+.letter-button{
+    padding: 40px 108px;
+    position: relative;
+    
+}
+.subscribe{
+    position: absolute;
+    height: 70px;
+    top: 2%;
+    right: 13%;
+    border-radius: 0px 50px 50px 0px;
+    
+}
+ .email{
+    height: 72px;
+    width: 640px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    padding: 25px 477px 25px 30px;
+    
+}
+ 
+/* Footer Section Styles */
+footer{
+    background-color: #070211;
+    width: 100%;
+    height: 530px;
+}
+footer p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.footer-items{
+    margin-bottom: 100px
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 291px 50px 140px;
+}
+.address > p {
+    height: 80px;
+    width: 380px;
+}
+hr{
+    background: rgba(255, 255, 255, 0.15);
+    max-width: 80%;
+    margin: auto;
+    
+    
+}
+.address-right img{
+    margin-right: 8px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 48px 0;
+}
+.all-rights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 140px 0 140px;
+}
 
 
