@@ -317,7 +317,7 @@ section {
   justify-content:center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 15px;
   width: 100%;
   margin-top: 40px;
  
@@ -325,12 +325,13 @@ section {
 .posters img{
     width: 400px;
     height: 420px;
+    transform: scale(0.9);
+    transition: 0.3s;
       
 }
-
-/* .posters img:hover{
-    opacity: 0.9%;
-} */
+.posters img:hover{
+    transform: scale(1);
+}
 
 
 /* Newsletter Section Style */
