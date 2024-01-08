@@ -400,12 +400,10 @@ footer p{
     height: 80px;
     width: 380px;
 }
-hr{
+ hr{
     background: rgba(255, 255, 255, 0.15);
     max-width: 80%;
-    margin: auto;
-    
-    
+    margin: auto;   
 }
 .address-right img{
     margin-right: 8px;
