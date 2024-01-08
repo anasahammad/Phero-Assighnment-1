@@ -248,13 +248,10 @@ section {
     border: none;
 }
 /* Holiday Sale Section Styles  */
-.holiday-sale{
-    width: 100%;
-}
 
 .holiday-text{
     text-align: center;
-    margin: 0 250px 50px 250px ;
+    margin: 0 180px 50px 180px ;
 }
 .holiday-text .func{
     color: #070211;
@@ -262,7 +259,6 @@ section {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
-   
 }
 .holiday-text h1 {
     font-family: Merriweather;
